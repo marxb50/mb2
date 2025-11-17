@@ -1,0 +1,8 @@
+{
+  "name": "Ordem de Serviço GPS",
+  "description": "Um sistema completo para gestão de ordens de serviço com geolocalização e fotos. Envolve um fluxo de aprovação entre Funcionários, Fiscais da SELIM e a empresa MB, com todo o histórico armazenado.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

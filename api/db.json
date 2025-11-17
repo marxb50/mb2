@@ -1,0 +1,67 @@
+
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João Silva (Funcionário Teste)",
+      "email": "joao@email.com",
+      "senha": "123",
+      "tipo": "funcionario"
+    }
+  ],
+  "solicitacoes": [
+    {
+      "id": 1,
+      "funcionarioId": 1,
+      "funcionarioNome": "João Silva (Funcionário Teste)",
+      "fotoInicial": "https://picsum.photos/seed/1/800/600",
+      "fotoFinal": null,
+      "latitudeInicial": -23.5505,
+      "longitudeInicial": -46.6333,
+      "enderecoInicial": "Praça da Sé, Sé, São Paulo - SP, Brasil",
+      "dataHoraInicial": "2024-05-20T10:00:00.000Z",
+      "status": "ENVIADO PARA SELIM",
+      "historico": [
+        {
+          "status": "ENVIADO PARA SELIM",
+          "por": "João Silva (Funcionário Teste)",
+          "dataHora": "2024-05-20T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "funcionarioId": 1,
+      "funcionarioNome": "João Silva (Funcionário Teste)",
+      "fotoInicial": "https://picsum.photos/seed/2/800/600",
+      "fotoFinal": "https://picsum.photos/seed/final2/800/600",
+      "latitudeInicial": -22.9068,
+      "longitudeInicial": -43.1729,
+      "enderecoInicial": "R. Primeiro de Março, Centro, Rio de Janeiro - RJ, Brasil",
+      "dataHoraInicial": "2024-05-19T14:30:00.000Z",
+      "status": "FINALIZADO PELO FUNCIONÁRIO",
+      "historico": [
+        {
+          "status": "ENVIADO PARA SELIM",
+          "por": "João Silva (Funcionário Teste)",
+          "dataHora": "2024-05-19T14:30:00.000Z"
+        },
+        {
+          "status": "ENVIADO PARA MB",
+          "por": "Fiscal SELIM",
+          "dataHora": "2024-05-19T16:00:00.000Z"
+        },
+        {
+          "status": "AGUARDANDO FOTO FINAL DO FUNCIONÁRIO",
+          "por": "Empresa MB",
+          "dataHora": "2024-05-20T09:00:00.000Z"
+        },
+        {
+          "status": "FINALIZADO PELO FUNCIONÁRIO",
+          "por": "João Silva (Funcionário Teste)",
+          "dataHora": "2024-05-20T17:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
